@@ -270,25 +270,22 @@ Classification / Resolution
 
 ## Repository Structure
 
+The repository currently keeps the project evidence at the root so every screenshot and query referenced in this walkthrough resolves directly.
+
 ```text
-microsoft-sentinel-soc-lab/
+MS-soc-lab/
 ├── README.md
 ├── SECURITY-NOTE.md
-├── .gitignore
-├── screenshots/
-│   ├── 01-build/
-│   ├── 02-onboard/
-│   ├── 03-detect/
-│   └── 04-investigate/
-├── kql/
-│   ├── failed-logons.kql
-│   ├── brute-force-detection.kql
-│   ├── authentication-timeline.kql
-│   ├── authentication-summary.kql
-│   └── successful-logon-details.kql
-└── incident-report/
-    └── failed-rdp-investigation.md
+├── failed-logons.kql
+├── brute-force-detection.kql
+├── authentication-timeline.kql
+├── authentication-summary.kql
+├── successful-logon-details.kql
+├── failed-rdp-investigation.md
+└── *.png   # sanitized build, detection, and investigation screenshots
 ```
+
+The numbered screenshot names correspond to the phases documented above. This structure favors direct, verifiable links over presenting folders that are not actually present in the repository.
 
 ## Resume / Portfolio Bullet
 
